@@ -1,0 +1,17 @@
+﻿<Window x:Class="jjjsdk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jjjsdk"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FFE9EBEC">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Label Name="la" Content="The accounting for active students in a group" Margin="138,30,158,302" FontFamily="Blackadder ITC" FontSize="34"/>
+        <Label Name="lb" Content="i hope youll enjoy :3" FontFamily="Blackadder ITC" FontSize="27" Margin="280,92,254,249" Foreground="Black" OpacityMask="#FF6F0606" />
+        <Button Name="ba" Content="Enter the data" FontFamily="Blackadder ITC" FontSize="23" Margin="299,173,351,203" Click="ba_Click"/>
+    </Grid>
+</Window>

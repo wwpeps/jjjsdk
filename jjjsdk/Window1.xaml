@@ -1,0 +1,14 @@
+﻿<Window x:Class="jjjsdk.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jjjsdk"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="da" HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="536" d:ItemsSource="{d:SampleData ItemCount=24}" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Button Name="ba" Content="add data" Margin="580,34,41,360" Click="ba_Click"/>
+        <Button x:Name="bb" Content="delete data" Margin="580,88,41,306"/>
+    </Grid>
+</Window>
